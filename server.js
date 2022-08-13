@@ -18,6 +18,6 @@ app.use((req, res, next) => {
     .sendFile(path.join(__dirname, "views", "error", "error.html"));
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("Server is running!");
 });
