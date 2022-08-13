@@ -1,0 +1,6 @@
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
